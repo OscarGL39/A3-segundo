@@ -4,9 +4,8 @@
 }
 
 body {
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: 0%;
+    margin: 0;
+    padding: 0 20%;
 }
 
 h1 {
@@ -15,37 +14,27 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.selector {
+    color: lightcyan;
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
     background-color: darkcyan;
     padding: 1%;
-    border-radius: 5px;
-}
-
-#selectors {
-    border: solid darkcyan 1px;
     border-radius: 5px;
 }
 
 #universal {
     color: lightgoldenrodyellow;
-}
-
-.selector h2 {
     background-color: darkcyan;
     padding: 1%;
-    border-radius: 5px1;
-}
-
-#universal h2 {
-    background-color: darkcyan;
-    padding: 1%;
-    border-radius: 5px1;
+    border-radius: 5px;
 }
 
 span {
     font-weight: 900;
-    color: white;
     background-color: black;
+    color: white;
 }
 
 li a {
